@@ -1,0 +1,145 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body div h1{
+    color: #0a0000;
+    background-color:#6d706e
+}
+    
+       
+#container {
+    background-color: black;
+    background-image: url(../Image/桃園棒球場.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 10px;
+    background-image: url(../Image/背景.jfif);
+    /* background-color: #08f858; */
+    .container {
+        max-width: 940px;
+        margin-left:  auto;
+        margin-right: auto;
+        /* background-image: ; */
+        background-color: #e6dbdb;
+        padding-top: 15px;
+        padding-bottom: 15Px;
+        padding-left: 40px;
+        padding-right: 40px;
+}
+nav ul li a {
+    height: 20px;
+    width: 500PX;
+    list-style-image: url(/Image/棒球-2.jpg) ;
+    margin-right: 20px;
+    border: 3px solid rgb(17, 65, 33);
+    /* display: inline-block; */
+    list-style: none;   
+    width: 200px;
+    margin-right: 30px; 
+    color: #333;
+    background-color: #30b1ec;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+header {
+    /* width: 800px; */
+    height: 250px;
+    color: #e64d0b;
+    padding-left: 20px;
+    padding-right: 15px;
+    background: #12e75d;
+}
+
+body header h1 {
+    color: rgb(236, 15, 15);
+    text-shadow: 2px 2px 4px #0a0000;
+    color: #1D3124;
+    font-size: 2rem;
+}
+
+.nav {
+    margin-top: 2px;
+    background-color: #96dfb0;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    margin-right: 20px;
+    /* border: 3px solid rgb(17, 65, 33); */
+    display: inline-block;
+    list-style: none;   
+    width: 200px;
+    margin-right: 30px; 
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+nav ul li a:link,
+nav ul li a:active,
+nav ul li a:visited {
+    color: #1D3124;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    background-color: #19dd5d;
+    /* text-decoration: underline; */
+    color: #fff;
+}
+
+.content-area {
+    display: flex;
+ 
+}
+
+article {
+    flex: 2;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 1px;
+    border-left: 2px dotted #b2a497;
+    border-top: 2px dotted #b2a497;
+    border-bottom: 2px dotted #b2a497;
+    border-image-width: auto;
+}
+
+aside {
+    flex: 1;
+    min-height: 500px;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    border-left: 2px dotted #b2a497;
+    border-right: 2px dotted #b2a497;
+    border-top: 2px dotted #b2a497;
+    border-bottom: 2px dotted #b2a497;
+}
+
+footer {
+    width: 700px;
+    height: 120px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: #08f858;
+}
+
+div .content-area {
+    /* width: 800px; */
+}
